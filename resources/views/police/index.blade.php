@@ -1,6 +1,6 @@
 @include('partials.header')
 
-<x-topnav />
+<x-nav />
 
 
 @include('partials.footer')
