@@ -24,3 +24,6 @@ Route::get('/users/{id}', [UserController::class, 'show']);
 
 
 Route::get('/login', [UserController::class, 'login']);
+Route::get('/sidenav', function () {
+    return view('sidenav'); // Assumes "AboutUs.blade.php" is in the "resources/views" directory.
+})->name('sidenav');
