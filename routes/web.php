@@ -27,3 +27,12 @@ Route::get('/login', [UserController::class, 'login']);
 Route::get('/sidenav', function () {
     return view('sidenav'); // Assumes "AboutUs.blade.php" is in the "resources/views" directory.
 })->name('sidenav');
+
+Route::get('/message', function () {
+    return view('message'); // Assumes "message.blade.php" is in the "resources/views" directory.
+})->name('message');
+
+Route::get('/tracking', function () {
+    return view('tracking'); 
+})->name('tracking');
+
