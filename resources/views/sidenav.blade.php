@@ -27,31 +27,29 @@
                       <img src="{{ asset('images/Logo.png') }}" class="h-10 mr-3" alt="Fleetlink Logo" />
                   </a>
               </div>
-                  <!-- Notification-->
+ <!-- Notification-->
               <div class="flex items-center">
                <a href="#" class="flex items-center ml-0 mr-0 p-1 0 text-blue-900  dark:text-black dark:hover:text- group">
                    <svg class="flex-shrink-0 w-7 h-7 text-blue-500 transition duration-75   dark:group-hover:text-black" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 21">
                      <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 3.464V1.1m0 2.365a5.338 5.338 0 0 1 5.133 5.368v1.8c0 2.386 1.867 2.982 1.867 4.175C15 15.4 15 16 14.462 16H1.538C1 16 1 15.4 1 14.807c0-1.193 1.867-1.789 1.867-4.175v-1.8A5.338 5.338 0 0 1 8 3.464ZM4.54 16a3.48 3.48 0 0 0 6.92 0H4.54Z"/>
                    </svg>
                </a>
+<!-- Username-->
                <span class="flex mr-1 whitespace-nowrap">Leah Oquindo</span>
                   <div>
+<!--Profile Picture-->  
                       <button type="button" class="flex text-sm bg-gray-800 rounded-full focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" aria-expanded="false" data-dropdown-toggle="dropdown-user">
                           <span class="sr-only">Open user menu</span>
                           <img class="w-8 h-8 rounded-full" src="https://flowbite.com/docs/images/people/profile-picture-5.jpg" alt="user photo">
-                    </button>
+                      </button>
                   </div>
-                  <a href="#" class="flex-shrink-0 w-7 h-7 text-blue-500 transition duration-75   dark:group-hover:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 21">
-                     <svg class="flex-shrink-0 w-7 h-5 mt-3 text-blue-500 transition duration-75   dark:group-hover:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 10">
-                        <path d="M15.434 1.235A2 2 0 0 0 13.586 0H2.414A2 2 0 0 0 1 3.414L6.586 9a2 2 0 0 0 2.828 0L15 3.414a2 2 0 0 0 .434-2.179Z"/>
-                      </svg>
-                     </a>
-           
-                     
-                        <a href="#" class="block px-4 py-2 text-sm text-white bg-black hover:bg-white-100 dark:text-white-300 dark:bg-blue-600 dark:hover:bg-blue-500 no-underline" role="menuitem">Logout</a>
-                                             
-                 
-                 
+                        <a href="#" class="flex-shrink-0 w-7 h-7 text-blue-500 transition duration-75   dark:group-hover:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 21">
+                           <svg class="flex-shrink-0 w-7 h-5 mt-3 text-blue-500 transition duration-75   dark:group-hover:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 10">
+                           <path d="M15.434 1.235A2 2 0 0 0 13.586 0H2.414A2 2 0 0 0 1 3.414L6.586 9a2 2 0 0 0 2.828 0L15 3.414a2 2 0 0 0 .434-2.179Z"/>
+                           </svg>
+                        </a>
+<!--Logout-->
+                  <a href="#" class="block px-4 py-2 text-sm text-white bg-black hover:bg-white-100 dark:text-white-300 dark:bg-blue-600 dark:hover:bg-blue-500 no-underline" role="menuitem">Logout</a>            
                   <div class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded shadow dark:bg-gray-700 dark:divide-gray-600" id="dropdown-user">
                       <div class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded shadow dark:bg-gray-700 dark:divide-gray-600" id="dropdown-user">
                         <div class="px-4 py-3" role="none">
