@@ -80,8 +80,6 @@
           </div>
       </div>
   </nav>
-
-  
   <aside id="logo-sidebar" class="fixed top-0 left-3 z-40 w-60 h-screen  pt-20 transition-transform -translate-x-full border-white-200 sm:translate-x-0 dark:bg-white-800 dark:border-white-700" aria-label="Sidebar">
      <div class="h-15 min-h-0 md:min-h-full pb-4 overflow-y-auto rounded-2xl bg-blue dark:bg-blue-200">
         <ul class=" mt-10 px-none font-large">
