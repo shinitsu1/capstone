@@ -15,15 +15,20 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('police.index');
+    return view('police.landingpage');
 });
 
 Route::get('/users', [UserController::class, 'index']);
 Route::get('/users/{id}', [UserController::class, 'show']);
-
+Route::get('/register', [UserController::class, 'register']);
+Route::post('/store', [UserController::class, 'store']);
 
 
 Route::get('/login', [UserController::class, 'login']);
 Route::get('/sidenav', function () {
     return view('sidenav'); // Assumes "AboutUs.blade.php" is in the "resources/views" directory.
 })->name('sidenav');
+
+Route::get('/try', function (){
+    return view('components.topnav');
+});
