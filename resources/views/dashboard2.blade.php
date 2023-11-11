@@ -12,7 +12,7 @@
     <a href="#" class="inline-flex items-center justify-center h-20 w-20 bg-blue-600 hover:bg-blue-500 focus:bg-blue-500">
       <svg fill="none" viewBox="0 0 64 64" class="h-12 w-12">
         <title>FleetLink logo</title>
-         <img src="{{ asset('images/FleetLink).png') }}" alt="FleetLink 
+         <img src="{{ asset('images/FleetLink).png') }}" alt="FleetLink
         <path d="M32 14.2c-8 0-12.9 4-14.9 11.9 3-4 6.4-5.6 10.4-4.5 2.3.6 4 2.3 5.7 4 2.9 3 6.3 6.4 13.7 6.4 7.9 0 12.9-4 14.8-11.9-3 4-6.4 5.5-10.3 4.4-2.3-.5-4-2.2-5.7-4-3-3-6.3-6.3-13.7-6.3zM17.1 32C9.2 32 4.2 36 2.3 43.9c3-4 6.4-5.5 10.3-4.4 2.3.5 4 2.2 5.7 4 3 3 6.3 6.3 13.7 6.3 8 0 12.9-4 14.9-11.9-3 4-6.4 5.6-10.4 4.5-2.3-.6-4-2.3-5.7-4-2.9-3-6.3-6.4-13.7-6.4z" fill="#fff"/>
       </svg>
     </a>
@@ -80,7 +80,7 @@
           </span>
           <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor" class="hidden sm:block h-6 w-6 text-gray-300">
             <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
-          </svg> 
+          </svg>
         </button>
         <div class="border-l pl-3 ml-3 space-x-1">
           <button class="relative p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-600 focus:bg-gray-100 focus:text-gray-600 rounded-full">
@@ -91,12 +91,16 @@
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
             </svg>
           </button>
+
+          <form action="/logout" method="POST">
+            @csrf
           <button class="relative p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-600 focus:bg-gray-100 focus:text-gray-600 rounded-full">
             <span class="sr-only">Log out</span>
-            <svg aria-hidden="true" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-6 w-6">
+            <svg aria-hidden="true" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-6 w-6" >
   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
 </svg>
           </button>
+        </form>
         </div>
       </div>
     </header>
@@ -223,7 +227,7 @@
           <div>
             <span class="block text-2xl font-bold">15</span>
             <span class="block text-gray-500">Total Drivers
-              
+
 
             </span>
           </div>
@@ -250,7 +254,7 @@
                 <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
               </svg>
             </button>
-           
+
           </div>
           <div class="overflow-y-auto" style="max-height: 24rem;">
             <ul class="p-6 space-y-6">
@@ -367,7 +371,7 @@
         </div>
       </section>
       <section class="text-right font-semibold text-gray-500">
-        <a href="#" class="text-purple-600 hover:underline">Fleetlink: North Caloocan Police Fleet Management System</a> 
+        <a href="#" class="text-purple-600 hover:underline">Fleetlink: North Caloocan Police Fleet Management System</a>
       </section>
     </main>
   </div>

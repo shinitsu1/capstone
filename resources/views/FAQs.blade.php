@@ -63,7 +63,7 @@
       text-decoration: none;
       display: inline-block;
       font-weight:bold;
-      line-height: 1; 
+      line-height: 1;
     }
 
     .header-button:hover {
@@ -159,9 +159,9 @@
   <div class="faq-content">
     <div class="header-links">
       <img src="{{ asset('images/FleetLink).png') }}" alt="FleetLink Logo" class="header-image">
-      <a href="{{ route('FleetLink') }}" class="header-link">Home</a>
-      <a href="{{ route('FAQs') }}" class="header-link">FAQs</a>
-      <a href="{{ route('about-us') }}" class="header-button">AboutUs</a>
+      <a href="#" class="header-link">Home</a>
+      <a href="#" class="header-link">FAQs</a>
+      <a href="#" class="header-button">AboutUs</a>
     </div>
     <h1 class="faq-title">FAQs</h1>
     <ul class="faq-list">

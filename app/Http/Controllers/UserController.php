@@ -10,7 +10,11 @@ use PhpParser\Node\Stmt\Return_;
 class UserController extends Controller
 {
     public function index(){
-        return 'Hello From UserController';
+        return view('dashboard2');
+    }
+
+    public function back(){
+        return view('FAQs');
     }
 
     public function show($id){
@@ -18,7 +22,7 @@ class UserController extends Controller
     }
 
     public function login(){
-        return view('users.login');
+        return view('auth.login');
     }
 
     public function register(){
@@ -38,7 +42,31 @@ class UserController extends Controller
 
         auth()->login($user);
 
-        return 'Account created Successfully!';
+        return redirect('/');
      }
+
+     public function process(Request $request){
+        $validated = $request->validate([
+            "email" => ['required', 'email'],
+            'password' => 'required'
+        ]);
+
+        if(auth()->attempt($validated)){
+        $request->session()->regenerate();
+
+        return redirect('/')->with('message', 'Welcome Back! ');
+        }
+
+        return back()->withErrors(['email' => 'Login Failed'])->onlyInput('email');
+    }
+
+    public function logout(Request $request) {
+        auth()->logout();
+
+        $request->session()->invalidate();
+        $request->session()->regenerateToken();
+
+        return redirect('/login')->with('message', 'Logout Successful');
+    }
 }
 
