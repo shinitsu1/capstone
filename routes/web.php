@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PoliceController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
@@ -14,9 +15,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('police.landingpage');
-});
+Route::get('/', [PoliceController::class, 'index'])->middleware('auth');
+Route::get('/login', [UserController::class, 'login'])->name('login')->middleware('guest');
+Route::post('/login/process', [UserController::class, 'process']);
+Route::post('/logout', [UserController::class, 'logout']);
+
+
+Route::get('/back', [UserController::class, 'back']);
+
 
 Route::get('/users', [UserController::class, 'index']);
 Route::get('/users/{id}', [UserController::class, 'show']);
@@ -24,11 +30,7 @@ Route::get('/register', [UserController::class, 'register']);
 Route::post('/store', [UserController::class, 'store']);
 
 
-Route::get('/login', [UserController::class, 'login']);
+
 Route::get('/sidenav', function () {
     return view('sidenav'); // Assumes "AboutUs.blade.php" is in the "resources/views" directory.
 })->name('sidenav');
-
-Route::get('/try', function (){
-    return view('components.topnav');
-});

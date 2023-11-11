@@ -1,4 +1,4 @@
-@include('partials.header')
+<x-app>
 
     <header class= "max-w-lg mx-auto">
         <a href="">
@@ -55,4 +55,4 @@
             </form>
         </section>
     </main>
-@include('partials.footer')
+</x-app>
