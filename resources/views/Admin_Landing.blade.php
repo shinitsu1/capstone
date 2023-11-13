@@ -27,10 +27,10 @@
     .header img {
       width: 200px;
       height: 50px;
-    
+
       margin-left: 0;
   margin-right: auto;
-      
+
     }
 
     .container {
@@ -92,16 +92,16 @@
       font-weight: bold;
       font-size: 14px;
     }
-    
+
   </style>
 </head>
 <body>
   <div class="header">
     <img src="{{ asset('images/FleetLink_Logo.png') }}" alt="Logo">
-    
-    <a href="{{ route('FAQs') }}" class="text-navigation" style="margin-right: 20px;">Vehicles</a>
-    <a href="{{ route('FAQs') }}" class="text-navigation" style="margin-right: 20px;">Accounts</a>
-    <a href="{{ route('FleetLink') }}" class="header-button">Signout</a>
+
+    <a href="#" class="text-navigation" style="margin-right: 20px;">Vehicles</a>
+    <a href="#" class="text-navigation" style="margin-right: 20px;">Accounts</a>
+    <a href="#" class="header-button">Signout</a>
   </div>
   <p class="text">Welcome Back Administrator, Kurt!</p>
   <p class="text1">Police Department Fleet Management System</p>

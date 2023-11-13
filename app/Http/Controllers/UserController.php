@@ -9,12 +9,12 @@ use PhpParser\Node\Stmt\Return_;
 
 class UserController extends Controller
 {
-    public function index(){
-        return view('dashboard2');
-    }
+    // public function index(){
+    //     return view('dashboard');
+    // }
 
     public function back(){
-        return view('FAQs');
+        return view('Admin_Landing');
     }
 
     public function show($id){

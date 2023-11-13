@@ -1,4 +1,5 @@
- <nav name="header" class="flex mt-[15px] m-auto items-center justify-normal w-[98%] bg-blue-200 rounded-2xl border-blue-200 dark:bg-blue-200">
+
+ <nav name="header" class="fixed top-3 left-3 right-3 flex items-center justify-normal w-[98%] bg-blue-200 rounded-2xl border-blue-200 dark:bg-blue-200">
         <div name="logo-container" class="flex flex-1">
             <img name="img" src="{{ asset('images/123logo.png') }}" alt="img" class="ml-[10px] h-[50px] w-[50px]" >
             <h3 name="logo" class="mt-[7px] ml-[2px] font-bold text-3xl text-blue-600 ">FLEETLINK</h3>
@@ -16,7 +17,7 @@
                     </li>
                     <li> --}}
 
-                    <a href="/back" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline-blue active:bg-blue-800">
+                    <a href="/back" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-[40px] rounded-xl focus:outline-none focus:shadow-outline-blue active:bg-blue-800">
                         Back
                     </a>
 
@@ -29,3 +30,4 @@
 
 
 </nav>
+
