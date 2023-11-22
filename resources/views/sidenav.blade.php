@@ -8,8 +8,8 @@
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
         @vite('resources/css/app.css')
-    </head>   
-    <nav class="fixed top-2 z-50 mx-3 w-full bg-blue-200 rounded-2xl border-blue-200 dark:bg-blue-200">
+    </head>
+    <nav class="fixed top-2 z-50 mx-3 w-[95%] items-center bg-blue-200 rounded-2xl border-blue-200 dark:bg-blue-200">
    <div class="py-2 lg:px-5 lg:pl-5">
           <div class="flex items-center justify-between">
               <div class="flex items-center justify-start">
@@ -34,7 +34,7 @@
 <!-- Username-->
                <span class="flex mr-1 whitespace-nowrap">Leah Oquindo</span>
                   <div>
-<!--Profile-->  
+<!--Profile-->
                       <button type="button" class="flex text-sm bg-gray-800 rounded-full focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" aria-expanded="false" data-dropdown-toggle="dropdown-user">
                           <span class="sr-only">Open user menu</span>
                           <img class="w-8 h-8 rounded-full" src="https://flowbite.com/docs/images/people/profile-picture-5.jpg" alt="user photo">
@@ -46,7 +46,7 @@
                            </svg>
                         </a>
 <!--Logout-->
-                  <a href="#" class="block px-4 py-2 text-sm text-white bg-black hover:bg-white-100 dark:text-white-300 dark:bg-blue-600 dark:hover:bg-blue-500 no-underline" role="menuitem">Logout</a>            
+                  <a href="#" class="block px-4 py-2 text-sm text-white bg-black hover:bg-white-100 dark:text-white-300 dark:bg-blue-600 dark:hover:bg-blue-500 no-underline" role="menuitem">Logout</a>
                   <div class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded shadow dark:bg-gray-700 dark:divide-gray-600" id="dropdown-user">
                       <div class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded shadow dark:bg-gray-700 dark:divide-gray-600" id="dropdown-user">
                         <div class="px-4 py-3" role="none">
@@ -70,7 +70,7 @@
                           <li>
                             <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">Sign out</a>
                           </li>
-                          
+
                         </ul>
                   </div>
               </div>
@@ -84,7 +84,7 @@
                 <a href="#" class="flex items-center mr-0 p-2 text-blue-900  dark:text-black dark:hover:text-white hover:bg-blue-100 dark:hover:bg-blue-400 group">
                    <svg class="flex-shrink-0 w-7 h-7 ms-8 text-blue-500 transition duration-75 dark:text-blue-700 group-hover:text-gray-900 dark:group-hover:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                     <path fill="currentColor" d="M13.5 9V4H20v5h-6.5ZM4 12V4h6.5v8H4Zm9.5 8v-8H20v8h-6.5ZM4 20v-5h6.5v5H4Zm1-9h4.5V5H5v6Zm9.5 8H19v-6h-4.5v6Zm0-11H19V5h-4.5v3ZM5 19h4.5v-3H5v3Zm4.5-8Zm5-3Zm0 5Zm-5 3Z"/></svg>
-                  
+
                    <span class="flex-1 ml-3 whitespace-nowrap">Dashboard</span>
                 </a>
              </li>
@@ -92,7 +92,7 @@
                 <a href="#" class="flex items-center p-2 text-gray-900 dark:text-black dark:hover:text-white hover:bg-gray-100 dark:hover:bg-blue-400 group">
                     <svg class="flex-shrink-0 w-7 h-7 ms-8 text-blue-500 transition duration-75 dark:text-blue-700 group-hover:text-gray-900 dark:group-hover:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                         <path fill="currentColor" d="M12 4a4 4 0 0 1 4 4a4 4 0 0 1-4 4a4 4 0 0 1-4-4a4 4 0 0 1 4-4m0 2a2 2 0 0 0-2 2a2 2 0 0 0 2 2a2 2 0 0 0 2-2a2 2 0 0 0-2-2m0 7c2.67 0 8 1.33 8 4v3H4v-3c0-2.67 5.33-4 8-4m0 1.9c-2.97 0-6.1 1.46-6.1 2.1v1.1h12.2V17c0-.64-3.13-2.1-6.1-2.1Z"/></svg>
-                
+
                    <span class="flex-1 ml-3 whitespace-nowrap">Users</span>
                 </a>
              </li>
@@ -124,7 +124,7 @@
   </aside>
 </div>
 </div>
-</div>    
+</div>
 <body>
 
 </body>
@@ -228,5 +228,5 @@
                  </svg>
               </p>
            </div>
-      
- 
+
+
