@@ -8,4 +8,4 @@
     @vite('resources/css/app.css')
     <script src="//unpkg.com/alpinejs" defer></script>
 </head>
-<body class="">
+<body class="bg-gray-100 font-sans text-gray-900 antialiased box-border m-0 p-0">

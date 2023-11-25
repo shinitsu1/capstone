@@ -148,7 +148,7 @@
     </form>
   </div>
   <img src="{{ asset('images/111.png') }}" alt="Background Image" class="background-image">
-  <img src="{{ asset('images/comrawpixel8630181-removebg-preview.png') }}" alt="Irregular Image" class="irregular-image">
+  <img src="{{ asset('images/login-img-bg.png') }}" alt="Irregular Image" class="irregular-image">
 </body>
 <script>
   const togglePassword = document.getElementById('togglePassword');
