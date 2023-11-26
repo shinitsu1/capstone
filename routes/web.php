@@ -44,4 +44,8 @@ Route::get('/Messaging', function () {
     return view('Messaging'); 
 })->name('Messaging');
 
+Route::get('/Cam', function () {
+    return view('Cam'); 
+})->name('Cam');
+
 Route::post('/send-sms', [SmsController::class, 'sendSMS']);
